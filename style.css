@@ -1,0 +1,217 @@
+
+
+/* style global */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 250px auto;
+    height: 100%;
+}
+
+body > *{
+    min-height: 100%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.banner{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+
+/* style de la navabar */
+
+nav{
+    color: #000;
+    padding: 10px;
+    border-right: 3px solid rgb(54, 190, 0);
+}
+
+.btn_nav{
+  width: 150px;
+  height: 40px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  background: #d5ffc8;
+  box-shadow: -4px -4px 8px rgba(255,255,255,0.5), 4px 4px 8px rgba(0,0,0,0.1);
+  transition: all 0.15s ease-in-out;
+}
+
+.btn_nav:hover{
+  transform: scale(1.05);
+  transform: translateX(15px);
+  background: #9DDBBA;
+  cursor: pointer;
+}
+
+
+
+
+
+/* style des headers */
+
+h1{
+    text-align: center;
+    padding-top: 40px;
+    font-size: 10ch;
+}
+
+h2{
+    text-align: center;
+    padding-top: 48px;
+    font-size: 6ch;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* style des twoots */
+
+.twoot{
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.twootName{
+    font-weight: bold;
+}
+.twootDate{
+    color: #999;
+    font-size: 0.8em;
+}
+.twootContent{
+    margin-top: 5px;
+}
+
+
+
+/* style des boutons supprimer */
+
+.btn_del{
+    display: inline-block;
+    padding: 6px 12px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    box-shadow: inset 0px 0px 0px 2px #f44336;
+    transition: all 0.15s ease-in-out;
+  }
+  
+.btn_del:hover{
+    box-shadow: inset 0px 0px 10px 2px #f44336;
+    cursor: pointer;
+}
+
+
+
+
+
+/* style des inputs pour envoyer le tweet et se connecter */
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    height: 50vh;
+  }
+  
+  input{
+    width: 300px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f2f2f2;
+    box-shadow: 10px 10px 20px #d9d9d9, -10px -10px 20px #ffffff;
+    margin: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #444444;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  input:focus{
+    outline: none;
+    box-shadow: inset 5px 5px 10px #d9d9d9, inset -5px -5px 10px #ffffff;
+  }
+  
+  .send{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #3477eb;
+    box-shadow: 10px 10px 20px #2c5ca9, -10px -10px 20px #4197ff;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .send:hover{
+    transform: translateY(-5px);
+    box-shadow: 15px 15px 30px #2c5ca9, -15px -15px 30px #4197ff;
+  }
+  
+
+  /* style sur la page post-connexion */
+  .btn_home{
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eb34ba;
+    box-shadow: 10px 10px 20px #a92c84, -10px -10px 20px #ff41d3;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 20px;
+    color: #ffffff;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .btn_home:hover{
+    transform: translateY(-5px);
+    box-shadow: 15px 15px 30px #a92c88, -15px -15px 30px #ff41d3;
+  }
+.container_bvn{
+  text-align: center;
+}
+ 
+
